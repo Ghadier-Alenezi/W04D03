@@ -29,7 +29,26 @@ const Cards = () => {
     history.push(`/card/${id}`);
   };
   // fav function
+  // function addFav(){
+
+
+  // }
   // search function
+// function searchCard(e){
+//   const value = e.target.value.toLowerCase();
+//   if(value !== ""){
+//     setArr(
+//       mainArr.filter((name)=>{
+//         const carName = name.toLowerCase();
+//         if (carName.includes(value))return name;
+//         else return null;
+//       })
+//     );
+//   }else{
+//     setArr(mainArr);
+//   }
+// };
+
 
   return (
     <div className="wrapper">
