@@ -5,7 +5,7 @@ import "./style.css";
 
 const Card = () => {
   const id  = useParams().id;
-  
+
   const[ mainArr] = useState([
     {
       id: "1",
@@ -32,8 +32,8 @@ const Card = () => {
 
   return (
     <div className="wrapper">
-    <h2>{mainArr.name}</h2>
-    <img src={mainArr.img} alt={`${mainArr.name} pic`}></img>
+    <h2>{myCard.name}</h2>
+    <img src={myCard.img} alt={`${myCard.name} pic`}></img>
     </div>
   );
 };
